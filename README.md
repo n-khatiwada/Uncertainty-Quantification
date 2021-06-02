@@ -37,4 +37,5 @@ Using relation, <img src="https://render.githubusercontent.com/render/math?math=
 Similarly, <img src="https://render.githubusercontent.com/render/math?math=Var(X^2) = E[X^4] - E[X^2]^2 = 48 - 4^2 = 32">.
 
 Thus the mean and standard deviation of <img src="https://render.githubusercontent.com/render/math?math=X^2"> are 4 and <img src="https://render.githubusercontent.com/render/math?math=4\sqrt{2}"> respectively.
-Let's redo this using **Monte-Carlo** method. See Jupyter Notebook above.
+
+Let's do this using **Monte-Carlo** method. See Jupyter Notebook above.
