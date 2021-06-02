@@ -30,4 +30,11 @@ It is a sampling approach to recreate the input distribution through less sample
 
 2. Let <img src="https://render.githubusercontent.com/render/math?math=X"> be a random variable which is normal distribution with <img src="https://render.githubusercontent.com/render/math?math=\bar{X}=0, \sigma=2">. Estimate mean and standard deviation of <img src="https://render.githubusercontent.com/render/math?math=X^2">.
 
-Please, have a look at Jupyter Notebook file.
+For a normal distribution <img src="https://render.githubusercontent.com/render/math?math=\sim N(0, \sigma=2)">, <img src="https://render.githubusercontent.com/render/math?math=E[X] = \bar{X} = 0, E[X^4] = 3\sigma^4 = 48">.
+
+Using relation, <img src="https://render.githubusercontent.com/render/math?math=Var(X) = E[X^2] - E[X]^2">, we get <img src="https://render.githubusercontent.com/render/math?math=E[X^2] = 4">
+
+Similarly, <img src="https://render.githubusercontent.com/render/math?math=Var(X^2) = E[X^4] - E[X^2]^2 = 48 - 4^2 = 32">.
+
+Thus the mean and standard deviation of <img src="https://render.githubusercontent.com/render/math?math=X^2"> are 4 and <img src="https://render.githubusercontent.com/render/math?math=4\sqrt{2}"> respectively.
+Let's redo this using **Monte-Carlo** method. See Jupyter Notebook above.
