@@ -1,4 +1,4 @@
-# ENERCON
+# Simple Monte Carlo Simulation and Other Uncertainty Quantification Method
 1. Describe an uncertainty quantification method, as Monte Carlo Method, Polynomial Chaos, Stochastic Collocation, Latin Hypercube
 ## Uncertainty Quantfication Method
 Uncertainty quantification studies about the characteristics and reduction of uncertainties in computational and real world applications. In other words, say, some parameters of the model are not exactly known, and how likely other certain outcomes are determined and what are propagated erros of the outcomes; uncertainty quantification deals with this. In real world applications, uncertainties arise in measurement in various ways. Few of them are unknown parameters, varaibility in parameters, lack of knowledge of the system or ignorace of certain parameters in the proposed model, numerical approximations, and not to mention experimental uncertainty. Let's discuss UQ for different methods.
